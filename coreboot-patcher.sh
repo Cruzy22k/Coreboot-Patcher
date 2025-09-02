@@ -43,6 +43,7 @@ downloader() {
     
     echo -e "\n\e[32mAll required utilities are ready.\e[0m"
     sleep 1
+    clear
 }
 print_help() {
     cat <<EOF
@@ -129,6 +130,7 @@ main() {
     echo -e "\nThe next step is to flash the modified ROM."
     echo "Proceeding with flashing. Ensure this is the correct machine!"
     echo -e "Flash your custom firmware:"
+    echo ""
     echo "AMD devices: sudo ./flashrom -p internal -w coreboot.rom"
     echo "Intel devices: sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"
     
