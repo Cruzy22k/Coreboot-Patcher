@@ -91,11 +91,11 @@ inject_data() {
         echo -e "\e[32mSuccessfully added your HWID.\e[0m"
     else
         # fallback is gbb extract
-        echo "HWID file not found. Falling back to GBB extraction..."
+        echo "HWID file not found. Falling back to GBB Utility"
         gbb_utility backup.rom --get --hwid | sed 's/^hardware_id: //' > hwid.txt || { echo -e "\e[31mError: Failed to extract hwid with gbb tool \e[0m" >&2; exit 1; }
         echo "Injecting gbb hwid into new rom"
         cbfstool coreboot.rom add -n hwid -f hwid.txt -t raw || { echo -e "\e[31mError: Stock firmware hwid injection failed!\e[0m" >&2; exit 1; }
-        echo -e "\e[32mSuccessfully injected stock firmware HWID.\e[0m"
+        echo -e "\e[32mSuccessfully injected stock firmware hwid.\e[0m"
     fi
 }
 
@@ -128,15 +128,15 @@ main() {
     echo "Your new rom 'modified_coreboot.rom' has been successfully injected!."
     echo -e "\nThe next step is to flash the modified ROM."
     echo "Proceeding with flashing. Ensure this is the correct machine!"
-    echo -e "Flash your custom firmware: 
-    AMD devices: sudo ./flashrom -p internal -w coreboot.rom
-    Intel devices: sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"
+    echo -e "Flash your custom firmware:"
+    echo "AMD devices: sudo ./flashrom -p internal -w coreboot.rom"
+    echo "Intel devices: sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"
     
     echo ""
     echo -e "Made with ♡ by Cruzy22k" 
     echo ":3"
     mv coreboot.rom modified_coreboot.rom
-    rm vpd.bin
+    sudo rm vpd.bin && sudo rm hwid.txt
 }
 
 main
