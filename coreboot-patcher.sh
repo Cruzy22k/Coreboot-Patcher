@@ -93,7 +93,7 @@ inject_data() {
     else
         # fallback is gbb extract
         echo "HWID file not found. Falling back to GBB Utility"
-        gbb_utility backup.rom --get --hwid | sed 's/^hardware_id: //' > hwid.txt || { echo -e "\e[31mError: Failed to extract hwid with gbb tool \e[0m" >&2; exit 1; }
+        gbb_utility backup.rom --get --hwid > hwid.txt || { echo -e "\e[31mError: Failed to extract hwid with gbb tool \e[0m" >&2; exit 1; }
         echo "Injecting gbb hwid into new rom"
         cbfstool coreboot.rom add -n hwid -f hwid.txt -t raw || { echo -e "\e[31mError: Stock firmware hwid injection failed!\e[0m" >&2; exit 1; }
         echo -e "\e[32mSuccessfully injected stock firmware hwid.\e[0m"
