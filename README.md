@@ -1,5 +1,5 @@
 # Coreboot Patcher
-Coreboot-Patcher automates the injection of HWID and VPD data from a backup ROM into a clean MrChromebox Coreboot ROM. This ensures that vital product data is retained, and device identifiers are retained.
+Coreboot-Patcher automates the injection of HWID and VPD data from a backup ROM into a clean MrChromebox Coreboot ROM. This ensures that vital product data and device identifiers are retained.
 
 > [!NOTE]  
 > This program is only meant for Chromebooks/Chromeboxes.
