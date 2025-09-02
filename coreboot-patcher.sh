@@ -136,7 +136,7 @@ main() {
     echo ""
     echo -e "Made with ♡ by Cruzy22k" 
     echo ":3"
-
+    mv coreboot.rom modified_coreboot.rom
 }
 
 main
