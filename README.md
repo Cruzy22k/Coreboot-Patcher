@@ -30,7 +30,7 @@ which is your **UEFI FullRom** for your device, containing both your VPD and HWI
 
 Intel devices:
 ------
- `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"`
+ `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N`
 
 AMD devices:
 ------
