@@ -19,7 +19,7 @@ To use this tool, place your backup.rom and coreboot.rom in the same directory.
 Then, run the following command from a command prompt in that directory.
 
 
-`curl -LO raw.githubusercontent.com/Cruzy22k/Coreboot-Patcher/coreboot-patcher.sh && sudo bash coreboot-patcher.sh`
+`curl -LO https://raw.githubusercontent.com/Cruzy22k/Coreboot-Patcher/main/coreboot-patcher.sh && sudo bash coreboot-patcher.sh`
 
 Follow the steps that the script prompts, and if it succeedes, you should have a modified coreboot.rom, 
 which is your **UEFI FullRom** for your device, containing both your VPD and HWID, ready to be flashed to your device with the commands listed at the bottom of this readme.
