@@ -125,11 +125,10 @@ main() {
     downloader
     inject_data
     
-    echo "Your new rom 'coreboot.rom' has been successfully modified."
+    echo "Your new rom 'modified_coreboot.rom' has been successfully injected!."
     echo -e "\nThe next step is to flash the modified ROM."
     echo "Proceeding with flashing. Ensure this is the correct machine!"
-    echo "Flash your custom firmware:
-
+    echo -e "Flash your custom firmware: 
     AMD devices: sudo ./flashrom -p internal -w coreboot.rom
     Intel devices: sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"
     
@@ -137,6 +136,7 @@ main() {
     echo -e "Made with ♡ by Cruzy22k" 
     echo ":3"
     mv coreboot.rom modified_coreboot.rom
+    rm vpd.bin
 }
 
 main
