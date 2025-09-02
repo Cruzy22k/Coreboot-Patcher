@@ -19,7 +19,7 @@ Then, run the following command from a command prompt in that directory.
 Follow the steps that the script prompts, and if it succeedes, you should have a modified coreboot.rom, 
 which is your UEFI FULLROM for your device, containing both your VPD and HWID, ready to be flashed to your device with 
 
-Intel devices 
-``
-AMD devices
-``
+`Intel devices: sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N"`
+
+`AMD devices: sudo ./flashrom -p internal -w coreboot.rom`
+    
