@@ -4,8 +4,13 @@
 To run this script, make sure that you have both your
 - ChromeOS backup rom file, most likely created from mrchromebox's firmware utility script, renamed `backup.rom`
 
-- A clean downloaded copy of your devices UEFI fullrom, eg. `https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_edk2-pujjo-mrchromebox_20250427.rom`
+- A clean downloaded copy of your devices UEFI fullrom, eg.
+`https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_edk2-pujjo-mrchromebox_20250427.rom`
 renamed to `coreboot.rom`
+- An internet connection.
+- A brain
+
+
 > [!NOTE]  
 > This program comes with ABSOLUTELY NO WARRANTY.
 
