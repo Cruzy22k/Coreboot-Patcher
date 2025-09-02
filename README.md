@@ -24,7 +24,7 @@ Then, run the following command from a command prompt in that directory.
 Follow the steps that the script prompts, and if it succeedes, you should have a modified coreboot.rom, 
 which is your **UEFI FullRom** for your device, containing both your VPD and HWID, ready to be flashed to your device with the commands listed at the bottom of this readme.
 
-> [!WARNING]  
+> [!CAUTION]  
 > Flashing your own firmware has the potential to brick your device. Do not do this unless you are sure you know what you're doing and have a way to recover from a bad flash. Some level of knowledge with using the Linux command line is required.
 
 
