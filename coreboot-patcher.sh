@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail # fail on any error
-SCRIPT_VER=1.2
+SCRIPT_VER=3.03
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)" 
 DATA_DIR="$SCRIPT_DIR"
 TOOLS_DIR="$(mktemp -d "${SCRIPT_DIR}/.tools.XXXXXXXXXX")"
