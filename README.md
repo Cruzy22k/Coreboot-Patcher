@@ -14,7 +14,7 @@ To run this script, make sure that you have both your
 `https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_edk2-pujjo-mrchromebox_20250427.rom`
 renamed to `coreboot.rom`
 - An internet connection.
-- A brain
+- A brain (optional)
 -----
 
 ## Usage
