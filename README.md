@@ -32,6 +32,9 @@ which is your **UEFI FullRom** for your device, containing both your VPD and HWI
 > [!CAUTION]  
 > Flashing your own firmware has the potential to brick your device. Do not do this unless you are sure you know what you're doing and have a way to recover from a bad flash. Some level of knowledge with using the Linux command line is required.
 
+> [!NOTE]  
+> You need flashrom installed on the device
+> You can install it with `wget -O flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom_ups_libpci37_20240418.tar.gz && tar -zxf flashrom.tar.gz && chmod +x flashrom`
 
 Intel devices:
 ------
