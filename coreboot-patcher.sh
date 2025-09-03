@@ -6,7 +6,7 @@ DATA_DIR="$SCRIPT_DIR"
 TOOLS_DIR="$(mktemp -d "${SCRIPT_DIR}/.tools.XXXXXXXXXX")"
 export PATH="$TOOLS_DIR:$PATH"
 trap 'rm -rf "$TOOLS_DIR"' EXIT
-
+cp coreboot.rom coreboot.rom.bak
 ## This script takes the data from a backed up rom, and injects it into a mrchromebox rom. It includes hwid and vpd.
 ## Created with ♡ by cruzy, based on https://docs.mrchromebox.tech/docs/firmware/manual-flashing.html 
 
