@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail # fail on any error
-SCRIPT_VER=3.04
+SCRIPT_VER=3.05.0
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)" 
 DATA_DIR="$SCRIPT_DIR"
 TOOLS_DIR="$(mktemp -d "${SCRIPT_DIR}/.tools.XXXXXXXXXX")"
@@ -113,6 +113,8 @@ check_files() {
 main() {
     cd "$DATA_DIR"
     clear
+    check_files
+    downloader
     echo "Coreboot patcher"
     echo "version: $SCRIPT_VER"
     echo -e "\e[32m---------------------------------------------------------------\e[0m"
@@ -121,8 +123,6 @@ main() {
     echo -e "\e[32m<Coreboot Patcher>  Copyleft (C) 2024  Cruzy22k\e[0m"
     echo -e "\e[32mThis program comes with ABSOLUTELY NO WARRANTY.\e[0m"
     echo -e "This is free software, and you are welcome to redistribute it.\e[0m"
-    check_files
-    downloader
     inject_data
     
     echo "Your new rom 'modified_coreboot.rom' has been successfully injected!."
