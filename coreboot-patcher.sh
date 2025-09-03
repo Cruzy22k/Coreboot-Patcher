@@ -125,7 +125,7 @@ main() {
     echo -e "This is free software, and you are welcome to redistribute it.\e[0m"
     inject_data
     
-    echo "Your new rom 'modified_coreboot.rom' has been successfully injected!."
+    echo "Your new rom 'modified_coreboot.rom' has been successfully injected with the hwid and vpd from your backup."
     echo -e "\nThe next step is to flash the modified ROM."
     echo "Proceeding with flashing. Ensure this is the correct machine!"
     echo -e "To flash your custom firmware run the following commands: "
