@@ -137,7 +137,7 @@ main() {
     echo ":3"
     # cleanup
     mv coreboot.rom modified_coreboot.rom
-    sudo rm vpd.bin && sudo rm hwid.txt
+    rm vpd.bin && rm hwid.txt
 }
 
 main
