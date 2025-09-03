@@ -25,7 +25,7 @@ Then, run the following command from a command prompt in that directory.
 
 
 ```
-curl -LO https://raw.githubusercontent.com/Cruzy22k/Coreboot-Patcher/main/coreboot-patcher.sh && sudo bash coreboot-patcher.sh
+curl -LO https://raw.githubusercontent.com/Cruzy22k/Coreboot-Patcher/main/coreboot-patcher.sh && bash coreboot-patcher.sh
 ```
 
 Follow the steps that the script prompts, and if it succeedes, you should have a modified coreboot.rom, 
