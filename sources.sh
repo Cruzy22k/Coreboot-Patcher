@@ -291,4 +291,122 @@ export coreboot_uefi_gallida360="coreboot_edk2-gallida360-mrchromebox_20250820.r
 export coreboot_uefi_gana="coreboot_edk2-gana-mrchromebox_20250820.rom"
 export coreboot_uefi_glassway="coreboot_edk2-glassway-mrchromebox_20250820.rom"
 export coreboot_uefi_gothrax="coreboot_edk2-gothrax-mrchromebox_20250820.rom"
-export coreboot_uefi_gothraxcs="coreboot_edk2-gothraxcs-mrchromebox_2
+export coreboot_uefi_gothraxcs="coreboot_edk2-gothraxcs-mrchromebox_20250820.rom"
+export coreboot_uefi_guren="coreboot_edk2-guren-mrchromebox_20250820.rom"
+export coreboot_uefi_hideo="coreboot_edk2-hideo-mrchromebox_20250820.rom"
+export coreboot_uefi_joxer="coreboot_edk2-joxer-mrchromebox_20250427.rom"
+export coreboot_uefi_nereid="coreboot_edk2-nereid-mrchromebox_20250427.rom"
+export coreboot_uefi_nivviks="coreboot_edk2-nivviks-mrchromebox_20250427.rom"
+export coreboot_uefi_pujjo="coreboot_edk2-pujjo-mrchromebox_20250427.rom"
+export coreboot_uefi_pujjo1e="coreboot_edk2-pujjo1e-mrchromebox_20250505.rom"
+export coreboot_uefi_pujjoflex="coreboot_edk2-pujjoflex-mrchromebox_20250427.rom"
+export coreboot_uefi_pujjoga="coreboot_edk2-pujjoga-mrchromebox_20250613.rom"
+export coreboot_uefi_pujjogatwin="coreboot_edk2-pujjogatwin-mrchromebox_20250613.rom"
+export coreboot_uefi_pujjoniru="coreboot_edk2-pujjoniru-mrchromebox_20250820.rom"
+export coreboot_uefi_pujjoteen="coreboot_edk2-pujjoteen-mrchromebox_20250427.rom"
+export coreboot_uefi_pujjoteen15w="coreboot_edk2-pujjoteen15w-mrchromebox_20250427.rom"
+export coreboot_uefi_quandiso="coreboot_edk2-quandiso-mrchromebox_20250427.rom"
+export coreboot_uefi_quandiso360="coreboot_edk2-quandiso360-mrchromebox_20250427.rom"
+export coreboot_uefi_riven="coreboot_edk2-riven-mrchromebox_20250528.rom"
+export coreboot_uefi_roric="coreboot_edk2-roric-mrchromebox_20250820.rom"
+export coreboot_uefi_rudriks="coreboot_edk2-rudriks-mrchromebox_20250528.rom"
+export coreboot_uefi_ruke="coreboot_edk2-ruke-mrchromebox_20250820.rom"
+export coreboot_uefi_rull="coreboot_edk2-rull-mrchromebox_20250820.rom"
+export coreboot_uefi_rynax="coreboot_edk2-rynax-mrchromebox_20250820.rom"
+export coreboot_uefi_sundance="coreboot_edk2-sundance-mrchromebox_20250820.rom"
+export coreboot_uefi_teliks="coreboot_edk2-teliks-mrchromebox_20250820.rom"
+export coreboot_uefi_teliks360="coreboot_edk2-teliks360-mrchromebox_20250820.rom"
+export coreboot_uefi_telith="coreboot_edk2-telith-mrchromebox_20250820.rom"
+export coreboot_uefi_teltic="coreboot_edk2-teltic-mrchromebox_20250820.rom"
+export coreboot_uefi_uldren="coreboot_edk2-uldren-mrchromebox_20250427.rom"
+export coreboot_uefi_uldren360="coreboot_edk2-uldren360-mrchromebox_20250427.rom"
+export coreboot_uefi_xivu="coreboot_edk2-xivu-mrchromebox_20250427.rom"
+export coreboot_uefi_xivu360="coreboot_edk2-xivu360-mrchromebox_20250427.rom"
+export coreboot_uefi_yahiko="coreboot_edk2-yahiko-mrchromebox_20250427.rom"
+export coreboot_uefi_yavijo="coreboot_edk2-yavijo-mrchromebox_20250427.rom"
+export coreboot_uefi_yaviks="coreboot_edk2-yaviks-mrchromebox_20250505.rom"
+export coreboot_uefi_yavikso="coreboot_edk2-yavikso-mrchromebox_20250427.rom"
+export coreboot_uefi_yavilla="coreboot_edk2-yavilla-mrchromebox_20250427.rom"
+export coreboot_uefi_yavilly="coreboot_edk2-yavilly-mrchromebox_20250427.rom"
+
+### AMD ###
+
+#Stoneyridge
+export coreboot_uefi_aleena="coreboot_edk2-aleena-mrchromebox_20250427.rom"
+export coreboot_uefi_barla="coreboot_edk2-barla-mrchromebox_20250427.rom"
+export coreboot_uefi_careena="coreboot_edk2-careena-mrchromebox_20250427.rom"
+export coreboot_uefi_kasumi="coreboot_edk2-kasumi-mrchromebox_20250427.rom"
+export coreboot_uefi_liara="coreboot_edk2-liara-mrchromebox_20250427.rom"
+export coreboot_uefi_treeya="coreboot_edk2-treeya-mrchromebox_20250427.rom"
+
+#Picasso
+export coreboot_uefi_berknip="coreboot_edk2-berknip-mrchromebox_20250427.rom"
+export coreboot_uefi_dirinboz="coreboot_edk2-dirinboz-mrchromebox_20250427.rom"
+export coreboot_uefi_ezkinil="coreboot_edk2-ezkinil-mrchromebox_20250427.rom"
+export coreboot_uefi_gumboz="coreboot_edk2-gumboz-mrchromebox_20250427.rom"
+export coreboot_uefi_jelboz360="coreboot_edk2-jelboz360-mrchromebox_20250427.rom"
+export coreboot_uefi_morphius="coreboot_edk2-morphius-mrchromebox_20250427.rom"
+export coreboot_uefi_vilboz="coreboot_edk2-vilboz-mrchromebox_20250427.rom"
+export coreboot_uefi_woomax="coreboot_edk2-woomax-mrchromebox_20250427.rom"
+
+#Cezanne
+export coreboot_uefi_dewatt="coreboot_edk2-dewatt-mrchromebox_20250427.rom"
+export coreboot_uefi_nipperkin="coreboot_edk2-nipperkin-mrchromebox_20250427.rom"
+
+#Mendocino
+export coreboot_uefi_crystaldrift="coreboot_edk2-crystaldrift-mrchromebox_20250427.rom"
+export coreboot_uefi_frostflow="coreboot_edk2-frostflow-mrchromebox_20250427.rom"
+export coreboot_uefi_markarth="coreboot_edk2-markarth-mrchromebox_20250427.rom"
+export coreboot_uefi_skyrim="coreboot_edk2-skyrim-mrchromebox_20250427.rom"
+export coreboot_uefi_whiterun="coreboot_edk2-whiterun-mrchromebox_20250427.rom"
+
+
+#RW_LEGACY payloads
+export seabios_link="seabios-link-mrchromebox_20180912.bin"
+export seabios_hswbdw_box="seabios-hswbdw_box-mrchromebox_20180912.bin"
+export seabios_hswbdw_book="seabios-hswbdw_book-mrchromebox_20180912.bin"
+export seabios_baytrail="seabios-byt-mrchromebox_20180912.bin"
+export seabios_braswell="seabios-bsw-mrchromebox_20180912.bin"
+export seabios_skylake="seabios-skl-mrchromebox_20180912.bin"
+export seabios_apl="seabios-apl-mrchromebox_20180912.bin"
+export seabios_kbl="seabios-kbl-mrchromebox_20250227.bin"
+export seabios_kbl_18="seabios-kbl_18-mrchromebox_20250227.bin"
+export rwl_altfw_kbl="rwl_altfw_kbl-mrchromebox_20250522.bin"
+export rwl_altfw_kbl_18="rwl_altfw_kbl_18-mrchromebox_20250522.bin"
+export rwl_altfw_whl="rwl_altfw_whl-mrchromebox_20201017.bin"
+export rwl_altfw_cml="rwl_altfw_cml-mrchromebox_20210415.bin"
+export rwl_altfw_drallion="rwl_altfw-drallion-mrchromebox_20250728.bin"
+export rwl_altfw_glk="rwl_altfw_glk-mrchromebox_20230110.bin"
+export rwl_altfw_jsl="rwl_altfw_jsl-mrchromebox_20211115.bin"
+export rwl_altfw_tgl="rwl_altfw_tgl-mrchromebox_20240729.bin"
+export rwl_altfw_adl="rwl_altfw_adl-mrchromebox_20250329.bin"
+export rwl_altfw_adl_2="rwl_altfw_adl_2-mrchromebox_20250329.bin"
+export rwl_altfw_adl_n="rwl_altfw_adl_n-mrchromebox_20250313.bin"
+export rwl_altfw_mtl="rwl_altfw_mtl-mrchromebox_20250307.bin"
+
+#RWL - AMD
+export rwl_altfw_stoney="rwl_altfw_stoney-mrchromebox_20200107.bin"
+export rwl_altfw_pco="rwl_altfw_pco-mrchromebox_20240412.bin"
+export rwl_altfw_mdn="rwl_altfw_mdn-mrchromebox_20250522.bin"
+export rwl_altfw_czn="rwl_altfw_czn-mrchromebox_20230907.bin"
+
+#hsw/bdw headless VBIOS
+export hswbdw_headless_vbios="hswbdw_vgabios_1040_cbox_headless.dat"
+
+#PXE ROM for Chromeboxes w/RTL81xx ethernet
+export pxe_optionrom="10ec8168.rom"
+
+#Non-ChromeOS devices
+export coreboot_uefi_librem13v1="coreboot_edk2-librem_13v1-mrchromebox_20250427.rom"
+export coreboot_uefi_librem13v2="coreboot_edk2-librem_13v2-mrchromebox_20250427.rom"
+export coreboot_uefi_librem13v4="coreboot_edk2-librem_13v4-mrchromebox_20250427.rom"
+export coreboot_uefi_librem15v2="coreboot_edk2-librem_15v2-mrchromebox_20250427.rom"
+export coreboot_uefi_librem15v3="coreboot_edk2-librem_15v3-mrchromebox_20250427.rom"
+export coreboot_uefi_librem15v4="coreboot_edk2-librem_15v4-mrchromebox_20250427.rom"
+export coreboot_uefi_librem_mini="coreboot_edk2-librem_mini-mrchromebox_20250427.rom"
+export coreboot_uefi_librem_mini_v2="coreboot_edk2-librem_mini_v2-mrchromebox_20250427.rom"
+export coreboot_uefi_librem_14="coreboot_edk2-librem_14-mrchromebox_20250427.rom"
+
+# other
+export touchpad_eve_fw="rose_v1.1.8546-ee1861e9e.bin"
+export touchpad_eve_fw_stock="rose_v2.0.653-dfd8046c6.bin"
