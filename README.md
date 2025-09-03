@@ -36,9 +36,10 @@ which is your **UEFI FullRom** for your device, containing both your VPD and HWI
 
 > [!NOTE]  
 > You need flashrom installed on the device
-> You can install it with ```
-> wget -O flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom_ups_libpci37_20240418.tar.gz && tar -zxf flashrom.tar.gz && chmod +x flashrom
-> ```
+You can install it with
+```
+wget -O flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom_ups_libpci37_20240418.tar.gz && tar -zxf flashrom.tar.gz && chmod +x flashrom
+```
 
 Intel devices:
 ------
