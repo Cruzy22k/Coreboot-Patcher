@@ -44,12 +44,12 @@ wget -O flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom_ups_libpci3
 Intel devices:
 ------
  ```
- sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N
+ sudo ./flashrom -p internal --ifd -i bios -w modified_coreboot.rom -N
  ```
 
 AMD devices:
 ------
  ```
- sudo ./flashrom -p internal -w coreboot.rom
+ sudo ./flashrom -p internal -w modified_coreboot.rom
  ```
     
