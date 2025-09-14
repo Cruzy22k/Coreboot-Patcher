@@ -52,4 +52,7 @@ AMD devices:
  ```
  sudo ./flashrom -p internal -w modified_coreboot.rom
  ```
-    
+
+Made with ♡ by Cruzy
+
+Pull requests welcome with fixes. 
